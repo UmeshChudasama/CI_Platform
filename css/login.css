@@ -1,6 +1,7 @@
 #bagimage {
     background-image: url('/images/Grow-Trees-On-the-path-to-environment-sustainability-login.png');
     height: 983px;
+    max-width: 100%;
     background-repeat: no-repeat;
     background-size: 100% 100%;
     margin: 0px;
@@ -21,5 +22,23 @@
     border-radius: 24px;
     border-color: #f88634;
     text-align: center;
-    color: #f88634;
+    color: #f88634; 
+}
+#margintop{
+    margin-top: 40%;
+}
+#leftpad{
+    padding-left: 5%;
+}
+@media screen and (max-width:990px) {
+
+    #logalign{
+        margin-bottom: 25px;
+    }
+    #margintop{
+        margin-top: 2%;
+    }
+    #leftpad{
+        padding-left: 15%;
+    }
 }
